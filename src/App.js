@@ -137,9 +137,9 @@ const onCancel = () => {
     <>
     <Nav cartItems={cartItems}/>
     <Routes>
-      <Route path="/"  element={<AllTours data={data}/>}/>
-      <Route path="/tour/:id" element={<ViewTour data={data} onAdd={onAdd}/>}/>
-      <Route path="/cart" element={<Cart cartItems={cartItems} onAdd={onAdd} onRemove={onRemove} onCancel={onCancel}/> }/>
+      <Route path="/tours-react"  element={<AllTours data={data}/>}/>
+      <Route path="/tours-react/tour/:id" element={<ViewTour data={data} onAdd={onAdd}/>}/>
+      <Route path="/tours-react/cart" element={<Cart cartItems={cartItems} onAdd={onAdd} onRemove={onRemove} onCancel={onCancel}/> }/>
     </Routes>
     </>
   );
