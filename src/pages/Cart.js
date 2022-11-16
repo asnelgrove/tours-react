@@ -14,10 +14,10 @@ const Cart = (props) => {
     const Cancel = () => {
         cartItems.length = 0;
         onCancel();
-        navigate("/");
+        navigate("/tours-react");
     }
     const Shop = () => {
-        navigate("/");
+        navigate("/tours-react");
     }
   return (
     <div>
