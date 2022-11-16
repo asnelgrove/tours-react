@@ -1,0 +1,33 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: lightskyblue;
+    color: #fff;
+    margin: 0;
+}
+
+.navbar > * {
+    padding: 1em;
+}
+
+.navitem:first-child {
+    padding-left: 1rem;
+    font-weight: bold;
+    font-size: 1.5rem;
+    background-color: coral;
+}
+
+.navitem:last-child {
+    padding-right: 1rem;
+}
+
+button.grnwhite {
+    background-color: #fff;
+    border: 2px solid green;
+    color: green;
+}
