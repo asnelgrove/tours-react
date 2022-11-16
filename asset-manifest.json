@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/tours-react/static/css/main.a28b31ae.css",
-    "main.js": "/tours-react/static/js/main.033d2bb7.js",
+    "main.js": "/tours-react/static/js/main.ac743965.js",
     "index.html": "/tours-react/index.html",
     "main.a28b31ae.css.map": "/tours-react/static/css/main.a28b31ae.css.map",
-    "main.033d2bb7.js.map": "/tours-react/static/js/main.033d2bb7.js.map"
+    "main.ac743965.js.map": "/tours-react/static/js/main.ac743965.js.map"
   },
   "entrypoints": [
     "static/css/main.a28b31ae.css",
-    "static/js/main.033d2bb7.js"
+    "static/js/main.ac743965.js"
   ]
 }
