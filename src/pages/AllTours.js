@@ -1,8 +1,17 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 
 const AllTours = (props) => {
-    
+    const [tours, setTours] = useState(props.data)
+    const [region, setRegion] = useState();
+
+    useEffect(() => {
+      if (region) {
+        let filtered = props.data.filter(tour => tour.location === region);
+        setTours(filtered);
+      }
+    }, [region])
+
   return (
     <div>
     
@@ -12,7 +21,17 @@ const AllTours = (props) => {
     </header>
     
     <section className="wrap-content">
-    {props.data.map((tour) => 
+    <div className="btns-inline">
+      <p>Filter tours by region</p>
+      <button className='filtr solid' onClick={()=>setRegion('Africa')}>Africa</button>
+      <button className='filtr solid' onClick={()=>setRegion('Americas')}>Americas</button>
+      <button className='filtr solid' onClick={()=>setRegion('Asia')}>Asia</button>
+      <button className='filtr solid' onClick={()=>setRegion('Australia-Pacific')}>Australia-Pacific</button>
+      <button className='filtr solid' onClick={()=>setRegion('Europe')}>Europe</button>
+      <button className='filtr solid' onClick={()=>{setTours(props.data); setRegion(null)}}>All</button>
+    </div>  
+    <div className="tour-cards"> 
+    {tours.map((tour) => 
     <div key={tour.id} className="card">
       
       <p>{tour.title}</p>
@@ -23,6 +42,7 @@ const AllTours = (props) => {
       
     </div>
     )}
+    </div> 
     </section>
     </div>
   )
