@@ -32,6 +32,21 @@ button {
   background-color: coral;
 }
 
+.filtr {
+  background-color: lightskyblue;
+}
+
+.filtr:hover {
+  background-color: deepskyblue;
+} 
+
+.filtr:focus {
+  outline: 4px solid deepskyblue;
+  outline-offset: 4px;
+  background-color: #fff;
+  color: deepskyblue;
+}
+
 .info-btn:hover {
   background-color: deepskyblue;
 }
@@ -54,7 +69,14 @@ header button {
 }
 
 section {
-  background-color: rgba(127,255, 212, 0.5)
+  background-color: rgba(127,255, 212, 0.5);
+  padding: 1rem;
+}
+
+.wrap-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .card, .card-wide {
@@ -84,7 +106,7 @@ section {
 }
 
 @media(min-width: 40em) {
-  section {
+  .tour-cards {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -149,6 +171,7 @@ section {
 .btns-inline {
   display: flex;
   justify-content: center;
+  align-items: center;
   padding-bottom: 1rem;
   gap: 1rem;
 }
@@ -189,6 +212,6 @@ hr {
   }
   
  .btns-inline {
-  flex-direction: column;
+  flex-wrap: wrap;
  }
 }
