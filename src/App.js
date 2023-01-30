@@ -6,6 +6,7 @@ import Cart from "./pages/Cart";
 import ViewTour from "./pages/ViewTour";
 import Landing from "./pages/Landing";
 import Footer from "./components/Footer";
+import ScrollToTop from "./components/ScrollToTop";
 
 const data = [
   {id: 1,
@@ -137,6 +138,7 @@ const onCancel = () => {
 
   return (
     <>
+    <ScrollToTop />
     <Nav cartItems={cartItems}/>
     <Routes>
       <Route path="/tours-react"  element={<Landing />}/>
