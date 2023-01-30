@@ -1,13 +1,16 @@
 {
   "files": {
-    "main.css": "/tours-react/static/css/main.a28b31ae.css",
-    "main.js": "/tours-react/static/js/main.7dd09d9e.js",
+    "main.css": "/tours-react/static/css/main.0c9eab7a.css",
+    "main.js": "/tours-react/static/js/main.2824dbb4.js",
+    "static/media/chelsea-essig-zCSIIoGQr2s-unsplash.jpg": "/tours-react/static/media/chelsea-essig-zCSIIoGQr2s-unsplash.9a84ece1c50183e57c7f.jpg",
+    "static/media/customer1.jpg": "/tours-react/static/media/customer1.f79a452149b26c45ff23.jpg",
+    "static/media/customer2.jpg": "/tours-react/static/media/customer2.ec1f4bde6e872ad9692e.jpg",
     "index.html": "/tours-react/index.html",
-    "main.a28b31ae.css.map": "/tours-react/static/css/main.a28b31ae.css.map",
-    "main.7dd09d9e.js.map": "/tours-react/static/js/main.7dd09d9e.js.map"
+    "main.0c9eab7a.css.map": "/tours-react/static/css/main.0c9eab7a.css.map",
+    "main.2824dbb4.js.map": "/tours-react/static/js/main.2824dbb4.js.map"
   },
   "entrypoints": [
-    "static/css/main.a28b31ae.css",
-    "static/js/main.7dd09d9e.js"
+    "static/css/main.0c9eab7a.css",
+    "static/js/main.2824dbb4.js"
   ]
 }
