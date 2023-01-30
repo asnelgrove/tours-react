@@ -30,7 +30,7 @@ const AllTours = (props) => {
       <button className='filtr solid' onClick={()=>setRegion('Europe')}>Europe</button>
       <button className='filtr solid' onClick={()=>{setTours(props.data); setRegion(null)}}>All</button>
     </div>  
-    <div className="tour-cards"> 
+    <div className="flexwrap"> 
     {tours.map((tour) => 
     <div key={tour.id} className="card">
       

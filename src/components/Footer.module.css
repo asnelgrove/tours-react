@@ -1,0 +1,17 @@
+footer {
+    background-color: rgb(30, 63, 49);
+    padding: min(4vw, 1.5rem);
+    display: flex;
+    gap: 3vw;
+    color: #fff;
+}
+
+footer a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.date {
+    position: absolute;
+    right: min(4vw, 1.5rem);
+}
