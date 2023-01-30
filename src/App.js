@@ -4,6 +4,8 @@ import Nav from "./components/Nav";
 import AllTours from "./pages/AllTours";
 import Cart from "./pages/Cart";
 import ViewTour from "./pages/ViewTour";
+import Landing from "./pages/Landing";
+import Footer from "./components/Footer";
 
 const data = [
   {id: 1,
@@ -137,10 +139,12 @@ const onCancel = () => {
     <>
     <Nav cartItems={cartItems}/>
     <Routes>
-      <Route path="/tours-react"  element={<AllTours data={data}/>}/>
+      <Route path="/tours-react"  element={<Landing />}/>
+      <Route path="/all-tours"  element={<AllTours data={data}/>}/>
       <Route path="/tour/:id" element={<ViewTour data={data} onAdd={onAdd}/>}/>
       <Route path="/cart" element={<Cart cartItems={cartItems} onAdd={onAdd} onRemove={onRemove} onCancel={onCancel}/> }/>
     </Routes>
+    <Footer />
     </>
   );
 }

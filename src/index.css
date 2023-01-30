@@ -51,6 +51,13 @@ button {
   background-color: deepskyblue;
 }
 
+button.cta {
+  font-size: 1.2rem;
+  padding: 1rem 2rem;
+  border-radius: 32px;
+  margin-top: 1rem;
+}
+
 header {
   width: 100%;
   height: auto;
@@ -105,8 +112,19 @@ section {
   margin: 0;
 }
 
+img.round {
+  width: 33%;
+  height: auto;
+  border: none;
+  border-radius: 50%;
+}
+
+.ital {
+  font-style: italic;
+}
+
 @media(min-width: 40em) {
-  .tour-cards {
+  .flexwrap {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -214,4 +232,41 @@ hr {
  .btns-inline {
   flex-wrap: wrap;
  }
+}
+
+.hero {
+  background-image: url('./images/chelsea-essig-zCSIIoGQr2s-unsplash.jpg');
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  text-shadow: 3px 3px 5px #000;
+  height: auto;
+}
+
+.hero h1, .hero p {
+  margin-bottom: 1.5rem;
+} 
+
+.big-sect {
+  font-size: 1.5rem;
+  padding-block: 8rem;
+  line-height: 1.8;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  position: relative;
+}
+
+.big-text {
+  max-width: 65ch;
+  margin-inline: auto;
+}
+
+p.small {
+  font-size: 10px;
+  text-align: right;
+  margin-bottom: 0;
+  position: absolute;
+  right: 2vw;
+  bottom: 2vw;
 }

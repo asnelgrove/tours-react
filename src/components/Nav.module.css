@@ -31,3 +31,8 @@ button.grnwhite {
     border: 2px solid green;
     color: green;
 }
+
+.link {
+    text-decoration: none;
+    color: #fff;
+}

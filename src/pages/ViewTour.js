@@ -15,7 +15,7 @@ const ViewTour = (props) => {
       <section>
         <header>
           <div className='header-buttons'>
-            <Link to={'/'} ><button className="solid red">Back to Tours</button></Link>
+            <Link to={'/all-tours'} ><button className="solid red">Back to Tours</button></Link>
             </div>
         </header>
 
