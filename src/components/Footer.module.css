@@ -2,6 +2,7 @@ footer {
     background-color: rgb(30, 63, 49);
     padding: min(4vw, 1.5rem);
     display: flex;
+    flex-direction: column;
     gap: 3vw;
     color: #fff;
 }
@@ -11,7 +12,15 @@ footer a {
     color: #fff;
 }
 
-.date {
-    position: absolute;
-    right: min(4vw, 1.5rem);
+
+
+@media (min-width: 40em) {
+    footer {
+        flex-direction: row;
+    }
+
+    .date {
+        position: absolute;
+        right: min(4vw, 1.5rem);
+    }
 }
