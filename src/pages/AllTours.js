@@ -20,7 +20,7 @@ const AllTours = (props) => {
     <h2>Choose one of our Professionally-guided Tours</h2>
     </header>
     
-    <section className="wrap-content">
+    <section className="wrap-content gr-bg">
     <div className="btns-inline">
       <p>Filter tours by region</p>
       <button className='filtr solid' onClick={()=>setRegion('Africa')}>Africa</button>

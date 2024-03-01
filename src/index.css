@@ -75,7 +75,11 @@ header button {
   margin-top: 1rem;
 }
 
-section {
+.gr-bg-header {
+  border-top: solid 5px rgba(127,255, 212, 0.5);
+}
+
+.gr-bg {
   background-color: rgba(127,255, 212, 0.5);
   padding: 1rem;
 }
